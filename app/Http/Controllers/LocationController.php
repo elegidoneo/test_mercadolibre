@@ -46,8 +46,8 @@ class LocationController extends Controller
 
         return response()->json([
             "position" => [
-                "X" => $coordinates->latitude(),
-                "Y" => $coordinates->longitude()
+                "X" => $coordinates->longitude(),
+                "Y" => $coordinates->latitude()
             ],
             "message" => $this->getMessage($messages)
         ]);

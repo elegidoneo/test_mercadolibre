@@ -39,8 +39,8 @@ class LocationControllerTest extends TestCase
         $response->assertSuccessful();
         $response->assertJson([
             "position" => [
-                "X" => 9.612371971752903,
-                "Y" => -2.8849892115312006
+                "X" => -2.8849892115312006,
+                "Y" => 9.612371971752903
             ],
             "message" => "este es un mensaje secreto"
         ]);
