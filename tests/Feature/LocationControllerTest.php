@@ -11,7 +11,7 @@ class LocationControllerTest extends TestCase
 {
     /**
      * @test
-     * @testdox
+     * @testdox Check sending the correct data, return the latitude and longitude coordinates
      */
     public function caseOne()
     {
@@ -48,7 +48,7 @@ class LocationControllerTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check that by not sending the correct distance the position does not have an interception point
      */
     public function caseTwo()
     {
@@ -79,7 +79,7 @@ class LocationControllerTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check when you do not receive the correct error message that the message arrived incomplete
      */
     public function caseThree()
     {
@@ -110,7 +110,7 @@ class LocationControllerTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check when you search for a specific satellite and do not have the complete error message
      */
     public function caseFour()
     {
@@ -126,7 +126,7 @@ class LocationControllerTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check when the satellite has the complete message, return the correct coordinates
      */
     public function caseFive()
     {
