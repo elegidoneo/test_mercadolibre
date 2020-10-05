@@ -9,7 +9,7 @@ class PositionTest extends TestCase
 {
     /**
      * @test
-     * @testdox
+     * @testdox check that the radius returns
      */
     public function caseOne()
     {

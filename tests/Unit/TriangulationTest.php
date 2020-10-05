@@ -11,7 +11,7 @@ class TriangulationTest extends TestCase
 {
     /**
      * @test
-     * @testdox
+     * @testdox Checks when wrong parameters of an exception are passed
      */
     public function caseOne()
     {
@@ -28,7 +28,7 @@ class TriangulationTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check that latitude and longitude return if they are within satellite range
      * @throws \Exception
      */
     public function caseTwo()

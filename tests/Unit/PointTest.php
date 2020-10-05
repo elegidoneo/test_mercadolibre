@@ -9,7 +9,7 @@ class PointTest extends TestCase
 {
     /**
      * @test
-     * @testdox
+     * @testdox Check that the latitude returns
      */
     public function caseOne()
     {
@@ -19,7 +19,7 @@ class PointTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check that the length returns
      */
     public function caseTwo()
     {
@@ -29,7 +29,7 @@ class PointTest extends TestCase
 
     /**
      * @test
-     * @testdox
+     * @testdox Check that an array of vectors returns
      */
     public function caseThree()
     {
